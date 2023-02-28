@@ -1,3 +1,55 @@
 * {
   box-sizing: border-box;
 }
+:root {
+  --primary-color: #6c63ff;
+  --box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin-top: 60px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  /* margin: 60px auto; */
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 44px;
+}
+
+.page-navigation-links {
+  display: flex;
+  justify-content: center;
+}
+
+.page-navigation-links a {
+  margin: 20px;
+  border: 1px solid var(--primary-color);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.contact {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.about-me {
+  color: var(--primary-color);
+}
